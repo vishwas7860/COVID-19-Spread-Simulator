@@ -197,6 +197,7 @@ def run(countries_csv_name, countries, sample_ratio, start_date, end_date):
     TRASITION_PROBS = sim_parameters.TRASITION_PROBS
     HOLDING_TIMES = sim_parameters.HOLDING_TIMES
 
+    df2 = pd.DataFrame()
     
     dates = days_calculator(start_date, end_date)
     
