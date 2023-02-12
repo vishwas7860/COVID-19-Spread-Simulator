@@ -15,7 +15,7 @@ sd = input("Please Enter starting date... Eg. YYYY-MM-DD\n")
 ed = input("Please Enter ending date... Eg. YYYY-MM-DD\n")
 
 
-SAMPLE_RATIO = int(input("Please Entern Population Ration:... {Eg. 1e6 }"))
+SAMPLE_RATIO = int(input("Please Entern Population Ratio:... {Eg. 1000000}\n"))
 
 class A3Test(unittest.TestCase):
     def runTest(self):
